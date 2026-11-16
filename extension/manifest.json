@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Koscout Ambil",
+  "version": "0.1.0",
+  "description": "Kirim halaman kos yang sedang terbuka ke Koscout.",
+  "action": {
+    "default_title": "Ambil ke Koscout",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["http://localhost:3000/*", "http://127.0.0.1:3000/*"]
+}
